@@ -36,13 +36,13 @@ cd tron_microservice
 	DB_USER
 	DB_PASS
 	DB_NAME
-     DB_URL=postgresql+asyncpg://${DB_USER}:${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_NAME}
+    DB_URL=postgresql+asyncpg://${DB_USER}:${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_NAME}
 	TEST_DB_HOST
 	TEST_DB_PORT
 	TEST_DB_USER
 	TEST_DB_PASS
 	TEST_DB_NAME
-     TEST_DB_URL=postgresql+asyncpg://${TEST_DB_USER}:${TEST_DB_PASS}@${TEST_DB_HOST}:${TEST_DB_PORT}/${TEST_DB_NAME}
+    TEST_DB_URL=postgresql+asyncpg://${TEST_DB_USER}:${TEST_DB_PASS}@${TEST_DB_HOST}:${TEST_DB_PORT}/${TEST_DB_NAME}
 	ENDPOINT_URI
 	API_KEY
    ```
