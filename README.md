@@ -79,8 +79,6 @@ cd tron_microservice
 
    ```bash
    docker-compose exec db psql -U ${DB_USER} -d ${DB_NAME} -c "CREATE DATABASE ${TEST_DB_NAME};"
-   docker-compose exec db psql -U ${DB_USER} -d ${TEST_DB_NAME} -c "CREATE ROLE ${TEST_DB_USER} WITH PASSWORD '${TEST_DB_PASS}';"
-   docker-compose exec db psql -U ${DB_USER} -d ${TEST_DB_NAME} -c "GRANT ALL PRIVILEGES ON DATABASE ${TEST_DB_NAME} TO ${TEST_DB_USER};"
    ```
 
 После создания базы данных можно запустить тесты с помощью команды:
